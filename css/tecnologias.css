@@ -1,0 +1,41 @@
+#tecnologias {
+    text-align: center;
+    color: #000;
+    background-color: #B9CDD1;
+    padding: 10px;
+}
+
+#tecnologias img {
+    width: 10%;
+}
+
+.details {
+    margin-top: 2rem;
+    font-weight: bold;
+}
+
+.details details {
+    margin-bottom: 2rem;
+}
+
+.details summary {
+    border: 3px solid #000;
+    border-radius: 50px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 576px){ 
+    #tecnologias img {
+        width: 15%;
+    }
+}
+
+@media (max-width: 768px){ 
+    #tecnologias img {
+        width: 12%;
+    }
+}

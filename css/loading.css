@@ -1,0 +1,37 @@
+@keyframes loading {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+#container-loading {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loading {
+    margin: 0 auto;
+    border: 2rem solid #000;
+    border-radius: 50%;
+    border-top-color: rgba(0,0,0,0.2);
+    height: 200px;
+    width: 200px;
+    animation: loading 2s linear infinite;
+}
+
+.loading-small {
+    display: block;
+    margin: 0 auto;
+    border: 3px solid #000;
+    border-radius: 50%;
+    border-top-color: rgba(0,0,0,0.2);
+    height: 15px;
+    width: 15px;
+    animation: loading 2s linear infinite;
+}

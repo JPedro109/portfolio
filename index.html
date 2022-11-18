@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="img/icons/icon.png">
+    <title>João Pedro | Portfólio</title>
+</head>
+
+<body>
+    <div id="container-loading">
+        <div class="loading"></div>
+    </div>
+
+    <div id="container">
+        <header>
+            <nav>
+                <ul id="nav">
+                    <li>
+                        <a href="#sobre">Sobre</a>
+                    </li>
+                    <li>
+                        <a href="#tecnologias">Tecnologias</a>
+                    </li>
+                    <li>
+                        <a href="#projetos">Projetos</a>
+                    </li>
+                    <li>
+                        <a href="#contatos">Contatos</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <section>
+
+            <!-- Sobre -->
+
+            <article id="sobre">
+                <div id="div-left-sobre">
+                    <h2>
+                        Olá eu me chamo João Pedro. Sou um Desenvolvedor Back-end
+                    </h2>
+                    <button class="button">
+                        <a href="assets/curriculo.pdf" target="_blank">
+                            Abrir Currículo
+                        </a>
+                    </button>
+                </div>
+
+                <div id="div-right-sobre">
+                    <img src="img/content.jpg" alt="Imagem Ilustrativa">
+                </div>
+            </article>
+
+            <!-- Tecnologias -->
+
+            <article id="tecnologias">
+                <h2>Tecnologias</h2>
+                
+                <div class="details">
+                    <details>
+                        <summary>
+                            Front-end
+                        </summary>
+                        <span>HTML5, CSS3, Javascript, React JS (Styled-Components e Next)</span>
+                    </details>
+
+                    <details>
+                        <summary>
+                            Back-end
+                        </summary>
+                        <span>Node (Javascript e Typescript), Docker e Kubernetes</span>
+                    </details>
+
+                    <details>
+                        <summary>
+                            Banco de Dados
+                        </summary>
+                        <span>MySQL, PostgresSQL e MongoDB</span>
+                    </details>
+                </div>
+            </article>
+
+            <!-- Projetos -->
+
+            <article id="projetos">
+                <h2>Projetos</h2>
+
+                <div id="container-projetos">
+
+                    <div class="container-projetos">
+
+                        <div id="projeto-1" onmouseover="addButtons('#projeto-1')"
+                            onmouseout="removeButtons('#projeto-1')">
+                            <div>
+                                <img src="img/sites/letmeask.png" alt="" class="img-projeto">
+                            </div>
+
+                            <div class="ocultar container-links">
+                                <button class="button">
+                                    <a href="https://letmeaskjpdev.vercel.app/" target="_blank">
+                                        Aplicação
+                                    </a>
+                                </button>
+                                <button class="button">
+                                    <a href="https://github.com/JPedro109/letmeask-front-end" target="_blank">
+                                        Front-end
+                                    </a>
+                                </button>
+                                <button class="button">
+                                    <a href="https://github.com/JPedro109/letmeask-back-end" target="_blank">
+                                        Back-end
+                                    </a>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div id="projeto-2" onmouseover="addButtons('#projeto-2')"
+                            onmouseout="removeButtons('#projeto-2')">
+
+                            <div>
+                                <img src="img/sites/minhas-despesas.png" alt="" class="img-projeto">
+                            </div>
+
+                            <div class="ocultar container-links">
+                                <button class="button">
+                                    <a href="https://despesasjpdev.vercel.app/" target="_blank">
+                                        Aplicação
+                                    </a>
+                                </button>
+                                <button class="button">
+                                    <a href="https://github.com/JPedro109/despesas-front-end" target="_blank"
+                                        disabled="disabled">
+                                        Front-end
+                                    </a>
+                                </button>
+                                <button class="button">
+                                    <a href="https://github.com/JPedro109/despesas-back-end" target="_blank">
+                                        Back-end
+                                    </a>
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+        </section>
+
+        <!-- Footer -->
+
+        <footer id="contatos">
+            <h2>Contatos</h2>
+
+            <div id="container-contatos">
+                <div id="div-contatos">
+                    <div>
+                        <a href="https://github.com/JPedro109" target="_blank">
+                            <img src="img/icons/github.png" alt="">
+                        </a>
+                        <a href="https://linkedin.com/in/jo%C3%A3o-pedro-m-n-silva-707341229/" target="_blank">
+                            <img src="img/icons/linkedin.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+<script src="js/index.js"></script>
+
+</html>
