@@ -1,6 +1,6 @@
 # JP Dev - Portfólio
 
-# <a href="https://jpedro109.github.io/portfolio">🔗 JP Dev</a>
+# 🔗 JP Dev
 <p>🚀 Aplicação voltada para expor projetos</p>
 
 # Status da Aplicação
@@ -10,3 +10,4 @@
 - HTML5
 - CSS3
 - Javascript
+- Bootstrap
